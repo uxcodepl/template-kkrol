@@ -1,0 +1,21 @@
+.form-inline .inputbox, .form-inline select, .form-inline textarea, .form-inline input {
+    display: inline-block;
+}
+.btn-toolbar::after{
+    clear: both;
+}
+.ajax-search .form-inline label{
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+.ajax-search .form-inline {
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-align: left;
+    -webkit-align-items: left;
+    -ms-flex-align: left;
+    align-items: left;
+}
